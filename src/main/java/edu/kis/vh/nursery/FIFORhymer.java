@@ -1,9 +1,12 @@
 package edu.kis.vh.nursery;
 
+import edu.kis.vh.nursery.wrappers.IntArrayStack;
+
+//wydaje mi się że najlepszym wyborem jest właśnie IntArrayStack, ale nie dam sobie o to ręki uciąć
+
 public class FIFORhymer extends DefaultCountingOutRhymer
 {
-
-    DefaultCountingOutRhymer temp = new DefaultCountingOutRhymer();
+    IntArrayStack temp = new IntArrayStack();
 
     @Override
     public int countOut()

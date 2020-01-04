@@ -24,12 +24,12 @@ public class DefaultRhymersFactory implements Rhymersfactory
     @Override
     public DefaultCountingOutRhymer getFIFORhymer()
     {
-        return new FIFORhymer();
+        return new FIFORhymer(/*new DefaultCountingOutRhymer()*/);
     }
 
     @Override
     public DefaultCountingOutRhymer getHanoiRhymer()
     {
-        return new HanoiRhymer();
+        return new HanoiRhymer(0);
     }
 }

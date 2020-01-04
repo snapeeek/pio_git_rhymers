@@ -1,11 +1,12 @@
-package edu.kis.vh.nursery.list;
+package edu.kis.vh.nursery.wrappers;
 
-public class IntLinkedList
+public class IntLinkedList implements edu.kis.vh.nursery.interfaces.IntLinkedListInterface
 {
 
     Node last;
     int i;
 
+    @Override
     public void push(int i)
     {
         if (last == null)
@@ -18,16 +19,19 @@ public class IntLinkedList
         }
     }
 
+    @Override
     public boolean isEmpty()
     {
         return last == null;
     }
 
+    @Override
     public boolean isFull()
     {
         return false;
     }
 
+    @Override
     public int top()
     {
         if (isEmpty())
@@ -35,6 +39,7 @@ public class IntLinkedList
         return last.value;
     }
 
+    @Override
     public int pop()
     {
         if (isEmpty())
