@@ -1,7 +1,7 @@
 package edu.kis.vh.nursery.wrappers;
 
 
-public class IntArrayStack implements edu.kis.vh.nursery.interfaces.IntArrayStackInterface
+public class IntArrayStack implements edu.kis.vh.nursery.wrappersinterfaces.IntArrayStackInterface
 {
     static final int[] INTS = new int[12];
     static final int INT = -1;

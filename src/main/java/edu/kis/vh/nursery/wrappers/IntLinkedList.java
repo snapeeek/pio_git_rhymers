@@ -1,8 +1,7 @@
 package edu.kis.vh.nursery.wrappers;
 
-public class IntLinkedList implements edu.kis.vh.nursery.interfaces.IntLinkedListInterface
+public class IntLinkedList implements edu.kis.vh.nursery.wrappersinterfaces.IntLinkedListInterface
 {
-
     Node last;
     int i;
 

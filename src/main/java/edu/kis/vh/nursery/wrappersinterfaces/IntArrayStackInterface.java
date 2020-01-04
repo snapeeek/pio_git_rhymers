@@ -1,4 +1,4 @@
-package edu.kis.vh.nursery.interfaces;
+package edu.kis.vh.nursery.wrappersinterfaces;
 
 public interface IntArrayStackInterface
 {
